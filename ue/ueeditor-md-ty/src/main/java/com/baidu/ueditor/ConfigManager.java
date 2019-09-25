@@ -27,8 +27,11 @@ public final class ConfigManager {
 
 	private final String rootPath;
 	private final String originalPath;
+	@SuppressWarnings("unused")
 	private final String contextPath;
+	@SuppressWarnings("unused")
 	private static final String configFileName = "config.json";
+	@SuppressWarnings("unused")
 	private String parentPath = null;
 	private JSONObject jsonConfig = null;
 	// 涂鸦上传filename定义
@@ -178,6 +181,7 @@ public final class ConfigManager {
 
 	}
 
+	@SuppressWarnings("unused")
 	private String getConfigPath() {
 		// return this.parentPath + File.separator + ConfigManager.configFileName;
 		try {
